@@ -17,8 +17,6 @@
     padding-top: 50px;
 
     gap: 50px;
-
-
 }
 
 .header {
@@ -99,7 +97,7 @@
     width: 35%;
     height: 500px;
 
-    box-shadow: 1px 0px 0px  rgb(0, 0, 0,0.5);
+    box-shadow: 2px 0px 0px  rgb(0, 0, 0,0.5);
 
     gap: 40px;
 }
@@ -111,7 +109,7 @@
 
 .section-info {
     width: 50%;
-    height: 450px;
+   height: 450px;
 }
 
 .section-info-list {
@@ -120,7 +118,7 @@
 
     font-size: 22px;
 
-    gap: 60px;
+    gap: 30px;
 
 }
 
@@ -138,4 +136,53 @@
 
 .color-page-atual {
     color: rgb(144, 144, 218);
+}
+
+.list-style-none{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    list-style: none;
+}
+
+.section-list {
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    left:0;
+    top: 50%;
+
+    gap: 20px;
+
+    list-style: none;
+}
+
+.section-list > * {
+    width: 300px;
+    
+}
+
+.btns {
+    all: unset;
+
+    box-sizing: border-box;
+
+   
+    background-color:rgb(31, 92, 141);
+    min-width: 150px;
+
+    font-size: 16px;
+    text-align: center;
+
+    padding: 10px;
+
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+.btns:hover{
+    background-color:steelblue;
 }

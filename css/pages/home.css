@@ -1,7 +1,10 @@
 
 .conteiner {
     display: flex;
-    width: 80%;
+
+    width: 90%;
+
+    margin-left: 50px;
 }
 
 .section-informacoes {
@@ -14,8 +17,10 @@
 
     border-radius: 5px;
 
-    height: 130px;
-    width: 300px;
+    font-size: 17px;
+
+    min-height: 100px;
+    width: 350px;
 
     padding: 15px;
 
@@ -36,10 +41,10 @@
 
     border-radius: 5px;
 
-    width: 340px;
-    height: 440px;
+    width: 360px;
+    height: 500px;
 
-    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .section-img:hover{
@@ -71,44 +76,8 @@
     width: 40%;
 } 
 
-.btns {
-    all: unset;
-
-    box-sizing: border-box;
-
-   
-    background-color:rgb(31, 92, 141);
-    min-width: 200px;
-
-    font-size: 16px;
-    text-align: center;
-
-    padding: 10px;
-
-    border-radius: 2px;
-
-    cursor: pointer;
-}
-
-.btns:hover{
-    background-color:steelblue;
-}
-
 .titulo-sobre-mim {
     font-size: 42px;
     color:slategray;
 }
 
-.section-list {
-    display: flex;
-    flex-direction: column;
-
-    gap: 20px;
-
-    list-style: none;
-}
-
-.section-list > * {
-    width: 300px;
-    
-}
