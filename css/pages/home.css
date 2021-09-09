@@ -41,10 +41,10 @@
 
     border-radius: 5px;
 
-    width: 360px;
-    height: 500px;
+    width: 380px;
+    height: 490px;
 
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .section-img:hover{
@@ -59,21 +59,27 @@
     height: 500px;
     width: 75%;
 
-    background-image: url('../../assets/associados1.jpg');
+    background-image: url('../../assets/Abstract-technology.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
     color: #fff;
 
-    font-size: 24px;
+    font-size: 22px;
 
     margin-bottom: 100px;
+
+    border-radius: 5px;
 }
 
 .titulo h1 {
     background-color: #fff;
     color: black;
+
     width: 40%;
+    padding: 20px;
+
+    border-radius: 0px 5px 0px 0px ;
 } 
 
 .titulo-sobre-mim {
