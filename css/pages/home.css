@@ -1,10 +1,17 @@
 
 .conteiner {
     display: flex;
+    align-items: center;
+    justify-content: center;
+   
 
-    width: 90%;
+    width: 100%;
+    min-height:500px ;
+    
 
     margin-left: 50px;
+
+    gap: 100px;
 }
 
 .section-informacoes {
@@ -29,26 +36,47 @@
 }
 
 .section-informacoes:hover{
-    box-shadow: 8px 8px 4px rgb(0, 0, 0,0.5);
+    box-shadow: 8px 8px 4px white;
 
     background-color: rgb(135, 206, 235, 0.3);
 
     margin-right: 10px;
 }
 
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(255, 255, 255,0.8);
+
+    line-height: 30px;
+
+    position: relative;
+    top: 0;
+    
+    height: 350px;
+    width: 50%;
+
+    font-size: 22px;
+
+    gap: 70px;
+}
+
 .section-img {
-    box-shadow: 5px 5px 4px rgb(0, 0, 0,0.5);
+    box-shadow: 5px 5px 4px rgb(15, 18, 50);
 
     border-radius: 5px;
 
-    width: 380px;
-    height: 490px;
+    width: 20%;
+    height: 350px;
 
     margin-left: 20px;
 }
 
 .section-img:hover{
-    box-shadow: 7px 7px 9px rgb(0, 0, 0,0.5);
+    box-shadow: 7px 7px 9px rgb(15, 18, 70);
     margin-right: 5px;
 }
 
@@ -72,18 +100,23 @@
     border-radius: 5px;
 }
 
-.titulo h1 {
-    background-color: #fff;
-    color: black;
+.titulo-apresentacao {
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(rgb(255, 255, 255),rgb(15, 18, 45)) ;
+    color: rgb(31, 30, 30);
 
     width: 40%;
-    padding: 20px;
+    padding: 20px ;
 
     border-radius: 0px 5px 0px 0px ;
+
+    gap: 30px;
 } 
 
 .titulo-sobre-mim {
     font-size: 42px;
-    color:slategray;
+    color:rgb(240, 231, 231);
 }
 
